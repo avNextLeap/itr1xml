@@ -1,0 +1,26 @@
+{
+"section":{
+	"section80dd":{
+		"1":"75000",
+		"2":"125000"
+	},
+	"section80u":{
+		"1":"75000",
+		"2":"125000"
+	},
+	"deductionus16ia":{
+	 	"standarddeduction":"50000"
+	 },
+	 "section80d":{
+	 	"preventiveHealthCheckUp":"5000",
+	 	"insurancePremium":"25000",
+	 	"seniorCitizen.insurancePremium":"50000"
+	 },
+	 "houseproperty":{
+	 	"S.interestPayable":"200000"
+	 },
+	 "section80ttb":{
+	 	"intrestOnDeposit":"50000"
+	 }
+}
+}

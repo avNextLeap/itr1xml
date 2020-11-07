@@ -1,0 +1,803 @@
+{
+"GeneralInfo":{
+
+	"firstName":"",
+	
+	"middleName":"",
+	
+	"surNameOrOrgName":"",
+	
+	"pan":"",
+		
+	"residenceNo":"",
+	
+	"residenceName":"",
+	
+	"roadOrStreet":"",
+	
+	"localityOrArea":"",
+	
+	"cityOrTownOrDistrict":"",
+
+	"pincode":"",
+
+	"aadhaarCardNo":"",
+
+	"dob":"",
+	
+	"mobileNo":"",
+	
+	"emailAddress":"",
+
+	"employerCategory":{
+		"doc":"CGOV - Centeral Goverment , SGOV - State Goverement  , PSU - Public Sector Unit, PE - Pensioners, OTH- Others, NA- Not Applicable",
+		"category":""
+	
+	},
+	
+	"returnFileSec":{
+		"doc":"11  =   139(1)-On or before due date , 12 = 139(4)-Belated",
+		"fileType":"11"
+	},
+	
+	"countryCodeMobile":"91",
+	
+	"countryCode":"91",
+	
+	"stateCode":"",
+
+	"zipcode":"",
+	
+	"aadhaarEnrolmentId":"",
+	
+	"seventhProvision139":{
+		"applicable":"no",
+		
+		"depositedAmtAggAmtExcd1CrPrYr":{
+			"doc": "Deposited amount or aggregate of amounts exceeding Rs. 1 Crore in one or more current account during the previous year",
+			"applicable":"no",
+			"amount":""
+		},
+		"incurredExpAggAmt2LkTrvFrgnCountry":{
+			"doc": "Have you incurred expenditure of an amount or aggregate of amount exceeding Rs. 2 lakhs for travel to a foreign country for yourself or for any other person?",
+			"applicable":"no",
+			"amount":""
+		
+		},
+		"incrExpAggAmt1LkElctrctyPrYr":{
+			"doc": "Have you incurred expenditure of amount or aggregate of amount exceeding Rs. 1 lakh on consumption of electricity during the previous year?",
+			"applicable":"no",
+			"amount":""
+		}
+	}
+},
+
+"IncomeDeductions":
+{
+	"basicsalary":{
+		"doc":"The basic salary defined in the form 16. This detail can be fetched from form 16BB",
+		"amount":"0",
+		"required":false
+	},
+	"salary":
+	{
+		"doc":"Salary as per section 17(1)",
+		"amount":"0",
+		"required":false
+	},
+
+	"perquisitesValue":
+	{
+		"doc":"Value of perquisites as per section 17(2)",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	"profitsInSalary":
+	{
+		"doc":"Profits in lieu of salary  as per section 17(3)",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	"allwncExemptUs10":[
+			{
+				"doc":"Leave Travel concession/assistance",
+				"type":"10(5)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Remuneration received as an official, by whatever name called, of an embassy, high commission etc",
+				"type":"10(6)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Allowances or perquisites paid or allowed as such outside India by the Government to a citizen of India for rendering service outside India",
+				"type":"10(7)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Death-cum-retirement gratuity received",
+				"type":"10(10)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Commuted value of pension received",
+				"type":"10(10A)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Earned leave encashment on Retirement",
+				"type":"10(10AA)",
+				"amount":"0",
+				"required":false
+				
+				
+			},
+			{
+				"doc":"Retrenchment Compensation received in respect of schemes not approved",
+				"type":"10(10B)(i)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Retrenchment Compensation received in respect of approved scheme",
+				"type":"10(10B)(ii)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Amount received/receivable on voluntary retirement or termination of service",
+				"type":"10(10C)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Tax paid by employer on non-monetary perquisite",
+				"type":"10(10CC)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Allowance to meet expenditure incurred on house rent",
+				"type":"10(13A)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Prescribed Allowances or benefits (not in a nature of perquisite) specifically granted to meet expenses wholly, necessarily and exclusively and to the extent actually incurred, in performance of duties of office or employment",
+				"type":"10(14)(i)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Prescribed Allowances or benefits granted to meet personal expenses in performance of duties of office or employment or to compensate him for increased cost of living",
+				"type":"10(14)(ii)",
+				"amount":"0",
+				"required":false
+				
+			},
+			{
+				"doc":"Any Other",
+				"description":"Any Other",
+				"type":"OTH",
+				"amount":"0",
+				"required":false
+				
+			}
+		],
+	"entertainmentAlw16ii":
+	{
+		"doc":"Entertainment allowance u/s 16(ii)",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	
+	"professionalTaxUs16iii":
+	{
+		"doc":"Professional tax u/s 16(iii)",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	"houseproperty":{
+		"doc":"The type of the house property. It can have these  values S - selfoccupied or L- letout or D- Deemed Let out",
+		"required":false,
+		"type":"S",
+		"S":{
+				"interestPayable":"",
+				"preConstructionInterest":"",
+				"arrearsRent":"",
+				"doc":"The arrears rent added here will be the total arrersRent received,the system will auto calculate the 30% of the same "
+		},
+		"L":{
+			"grossRentReceived":"",
+			"taxPaidlocalAuth":"",
+			"interestPayable":"",
+			"preConstructionInterest":"",
+			"arrearsRent":""
+		},
+		"D":{
+			"grossRentReceived":"",
+			"taxPaidlocalAuth":"",
+			"interestPayable":"",
+			"preConstructionInterest":"",
+			"arrearsRent":""
+		}
+		
+	},
+	
+	"incomeOthSrc":[
+		{
+				"doc":"Interest from Saving Account",
+				"type":"SAV",
+				"amount":"",
+				"required":false
+		},
+		{
+				"doc":"Interest from Deposit (Bank/Post Office/Cooperative Society)",
+				"type":"IFD",
+				"amount":"",
+				"required":false
+		},
+		{
+				"doc":"Interest from Income Tax Refund",
+				"type":"TAX",
+				"amount":"0",
+				"required":false
+		},
+		{
+				"doc":"Family Pension",
+				"type":"FAP",
+				"amount":"0",
+				"required":false
+		},
+		{
+				"doc":"Any Other",
+				"description":"",
+				"type":"OTH",
+				"amount":"",
+				"required":false
+		}
+	],
+	"section80C":
+	{
+		"doc":"80C - Life insurance premia, deferred annuity, contributions to provident fund etc.",
+		"amount":"",
+		"required":false
+		
+	},
+	
+	
+	"section80CCC":
+	{
+		"doc":"80CCC - Payment in respect Pension Fund",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	
+	"section80CCD":
+	{
+		"doc":"80CCD(1) - Contribution to pension scheme of Central Government",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	
+	"section80CCD1B":
+	{
+		"doc":"80CCD(1B) - Contribution to pension scheme of Central Government",
+		"amount":"0",
+		"required":false
+		
+	},
+
+	
+	"section80CCD2":
+	{
+		"doc":"80CCD(2) - Contribution to pension scheme of Central Government by employer",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	"Section80D":{
+		"required":false,
+		"selfAndFamilyExcludingParentAsSeniorCtz":{
+			"doc":"whether you or your family member (excluding parent) is senior citizen. seniorCitizenFlag value should be 1- if yes  , 2. if No  , 3. Not Claiming for Self/Famiy  ",
+			
+			"seniorCitizenFlag":"3",
+			
+			"healthInsurancePremium":{
+				"amount":"0"
+			},
+			"medicalExpenditure":{
+				"amount":"0"
+			},
+			"preventiveHealthCheckUp":{
+				"amount":"0"
+			}
+		},
+		"parentAsSeniorCitizen":{
+
+			"doc":"whether any one of your parent is senior citizen. seniorCitizenFlag value should be 1- if yes  , 2 - if No  , 4- Not Claiming for parents ",
+			
+			"seniorCitizenFlag":"4",
+		
+				"healthInsurancePremium":{
+					"amount":"0"
+				},
+				"medicalExpenditure":{
+					"amount":"0"
+				},
+				"preventiveHealthCheckUp":{
+					"amount":"0"
+				}
+		}
+	},
+		"section80DD":
+		{
+			"doc":"Enter type 1-Dependent person with Disability,2-Dependent person with Severe disability",
+			"amount":"0",
+			"type":"1",
+			"required":false
+		},
+	"section80DDB":
+		{
+			"doc":"Enter type 1-Self or dependent , 2-Self or Dependent - Senior Citizen ",
+			"amount":"0",
+			"type":"2",
+			"required":false
+		},
+	"section80E":
+	{
+			"doc":"80E - Interest on loan taken for higher education",
+			"amount":"0",
+			"required":false
+	},
+	
+	"section80EE":
+	{
+			"doc":"80EE - Interest on loan taken for residential house property",
+			"amount":"0",
+			"required":false
+			
+	},
+
+	"section80EEA":
+	{
+			"doc":"80EEA - Deduction in respect of interest on loan taken for certain house property",
+			"amount":"0",
+			"required":false
+			
+	},
+
+	"section80EEB":
+	{
+			"doc":"80EEB - Deduction in respect of purchase of electric vehicle",
+			"amount":"0",
+			"required":false
+			
+	},
+
+	"section80GG":
+	{
+		"doc":"80GG - Rent paid",
+		"amount":"0",
+		"required":false
+		
+	},
+
+	"section80GGC":
+	{
+		"doc":"80GGC - Donation to Political party",
+		"amount":"0",
+		"required":false
+		
+	},
+	
+	"section80U":{
+		"doc":"A person with disability, the type value should be either 1 when Self with Disability or 2 when Self with Severe disability",
+		"type":"",
+		"amount":"0",
+		"claimDeduction":false,
+		"required":false
+	},
+
+	"exemptIncAgriOthUs10":[
+		{
+			"doc":"Agriculture Income",
+			"amount":"0",
+			"type":"AGRI",
+			"required":false
+		},
+		{
+			"doc":"Any amount from the Central/State Govt./local authority by way of compensation on account of any disaster",
+			"amount":"",
+			"type":"10(10BC)",
+			"required":false
+			
+		},
+				{
+			"doc":"Any sum received under a life insurance policy, including the sum allocated by way of bonus on such policy",
+			"amount":"",
+			"type":"10(10D)",
+			"required":false
+			
+		},
+		{
+			"doc":"Statuory Provident Fund received",
+			"amount":"",
+			"type":"10(11)",
+			"required":false			
+			
+		},
+				{
+			"doc":"Recognized Provident Fund received",
+			"amount":"",
+			"type":"10(12)",
+			"required":false
+			
+		},
+		{
+			"doc":"Approved superannuation fund received",
+			"amount":"",
+			"type":"10(13)",
+			"required":false
+			
+		},
+				{
+			"doc":"Scholarships granted to meet the cost of education",
+			"amount":"",
+			"type":"10(16)",
+			"required":false			
+			
+		},
+		{
+			"doc":"Allowance MP/MLA/MLC",
+			"amount":"",
+			"type":"10(17)",
+			"required":false
+			
+		},
+		{
+			"doc":"Award instituted by Government",
+			"amount":"",
+			"type":"10(17A)",
+			"required":false			
+			
+		},
+		{
+			"doc":"Pension received for gallantry award",
+			"amount":""
+			,
+			"type":"10(18)",
+			"required":false
+			
+		},
+		{
+			"doc":"Defense medical disability pension",
+			"amount":""
+			,
+			"type":"DMDP",
+			"required":false
+			
+		},
+		{
+			"doc":"Armed Forces Family pension in case of death during operational duty",
+			"amount":""
+			,
+			"type":"10(19)",
+			"required":false
+			
+		},
+		{
+			"doc":"Any income as referred to in section 10(26)",
+			"amount":"",
+			"type":"10(26)",
+			"required":false
+			
+		},
+		{
+			"doc":"Any income as referred to in section 10(26AAA)",
+			"amount":"",
+			"type":"10(26AAA)",
+			"required":false
+			
+		},
+		{
+			"doc":"Exempted Dividend Income",
+			"amount":"",
+			"type":"10(34)",
+			"required":false
+			
+		},
+		{
+			"doc":"Any Other",
+			"amount":"",
+			"type":"OTH",
+			"required":false
+		}
+
+	],
+	"section89":
+			{
+				"doc":"Relief u/s 89(1)",
+				"amount":"0",
+				"required":false
+				
+			},
+			
+			
+	"claim_deduction_for_extended_period":{
+			"applicable":"no",
+			 "section80C":"0",
+			 "section80CCC":"0",
+			 "section80CCD":"0",
+			 "section80CCD1B":"0",
+			 "section80CCD2":"0",
+			 "section80D":"0",
+			 "section80DD":"0",
+			 "section80DDB":"0",
+			 "section80E":"0",
+			 "section80EE":"0",
+			 "section80EEA":"0",
+			 "section80EEB":"0",
+			 "section80G":"0",
+			 "section80GG":"0",
+			 "section80GGA":"0",
+			 "section80GGC":"0"
+		}
+	
+},
+
+"TaxDetails":{
+	"tds1":
+		[
+			{
+					"doc":"TDS1 Details of tax Deducted  at source from SALARY[As per form 16 Issued by Employer]",
+					"deductorTan":"",
+					"deductorName":"",
+					"grossSalary":"",
+					"tdsDeducted":"0",
+					"required":false
+				}
+		],
+	"tds2":
+		[
+			{
+					"doc":"TDS2 Details of tax Deducted  at source from Income other than SALARY[As per form 16 Issued by Deductor]",
+					"deductorTan":"",
+					"deductorName":"",
+					"grossIncome":"",
+					"deductedYr":"",
+					"tdsDeducted":"",
+					"tdsClaimed":"",
+					"required":false
+				}
+		],
+	"tds3":
+		[
+			{
+					"doc":"TDS3 Details of tax Deducted  at source from SALARY[As per form 16 Issued by Employer]",
+					"panOfTenant":"",
+					"nameOfTenant":"",
+					"grsRcptToTaxDeduct":"",
+					"deductedYr":"",
+					"tdsDeducted":"",
+					"tdsClaimed":"",
+					"required":false
+				}
+		],
+		
+		"AdvanceTaxAndSelfAssesmentTax":[
+				{
+					"bsrCode":"",
+					"dateDeposited":"",
+					"srlNoOfChaln":"",
+					"taxPaid":"",
+					"required":false
+				}
+		]
+},
+"Verification":{
+	"assesseeVerName":"",
+	"fatherName":"",
+	"capacity":"S",
+	"assesseeVerPAN":"",
+	"place":"",
+	"bankDetails":[
+		{
+			"ifscCode":"",
+			"bankName":"",
+			"bankAccountNo":"",
+			"isUsedForRefund":false
+		}
+	]
+},
+"Donation80G":{
+	"don100PercentNotQualifyLimit":[
+		{
+			"doneeName":"",
+			"address":"",
+			"cityOrTownOrDistrict":"",
+			"state":"",
+			"pincode":"",
+			"doneePAN":"",
+			"donationAmtCash":"",
+			"donationAmtOtherMode":"",
+			"required":false
+		}
+	],
+	"don50PercentNotQualifyLimit":[
+		{
+			"doneeName":"",
+			"address":"",
+			"cityOrTownOrDistrict":"",
+			"state":"",
+			"pincode":"",
+			"doneePAN":"",
+			"donationAmtCash":"",
+			"donationAmtOtherMode":"",
+			"required":false
+		}
+	],
+	"don100PercentQualifyLimit":[
+		{
+			"doneeName":"",
+			"address":"",
+			"cityOrTownOrDistrict":"",
+			"state":"",
+			"pincode":"",
+			"doneePAN":"",
+			"donationAmtCash":"",
+			"donationAmtOtherMode":"",
+			"required":false
+		}
+	],
+	"don50PercentQualifyLimit":[
+		{
+			"doneeName":"",
+			"address":"",
+			"cityOrTownOrDistrict":"",
+			"state":"",
+			"pincode":"",
+			"doneePAN":"",
+			"donationAmtCash":"",
+			"donationAmtOtherMode":"",
+			"required":false
+		}
+	]
+},
+"Donation80GGA":[
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2a",
+				"required":false,
+				"doc":"Sum paid to Research Association or University, college or other institution for Scientific Research"
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2aa",
+				"required":false,
+				"doc":"Sum paid to Research Association or University, college or other institution for Social science or Statistical Research"
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2b",
+				"required":false,
+				"doc":"Sum paid to an association or institution for Rural Development"
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2bb",
+				"required":false,
+				"doc":"Sum paid to PSU or Local Authority or an association or institution approved by the National Committee for carrying out any eligible project"
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2c",
+				"required":false,
+				"doc":"Sum paid to an association or institution for Conservation of Natural Resources or for afforestation"
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2cc",
+				"required":false,
+				"doc":"Sum paid for Afforestation, to the funds, which are notified by Central Govt."
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2d",	
+				"required":false,
+				"doc":"Sum paid for Rural Development to the funds, which are notified by Central Govt."
+			},
+			{
+				"doneeName":"",
+				"address":"",
+				"cityOrTownOrDistrict":"",
+				"state":"",
+				"pincode":"",
+				"doneePAN":"",
+				"donationAmtCash":"",
+				"donationAmtOtherMode":"",
+				"type":"80GGA2e",
+				"required":false,
+				"doc":"Sum paid to National Urban Poverty Eradication Fund as setup and notified by Central Govt."
+			}
+		]
+		
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+	<Appenders>
+		<RollingFile name="itrxmlfile" fileName="${sys:itrxml.log.dir}/itrxml.log" filePattern="${sys:itrxml.log.dir}/itrxml.%i.log">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %p %c [%t] - %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10MB" />
+			</Policies>
+		</RollingFile>
+		
+	</Appenders>
+
+	<Loggers>
+		<Logger name="com.itd" level="warn" additivity="false">
+			<AppenderRef ref="itrxmlfile" />
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="itrxmlfile" />
+		</Root>
+	</Loggers>
+</Configuration>

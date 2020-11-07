@@ -1,0 +1,14 @@
+JAVA CLI to generate XML file
+#java -Dxml.out.dir=/ankit/project/generatexml/output -Dinstall.dir=ankit/project/generatexml -Djson.file=/ankit/project/generatexml/json/ITR1_WithData.json -Ditrxml.log.dir=/ankit/project/generatexml/logs -Dlog4j.configurationFile=/ankit/project/generatexml/conf/log4j2.xml -cp "/ankit/project/generatexml/lib/*" com.nextleap.itr.generatexml.GenerateXML
+
+XML WEB SERVICE API in WINDOWS
+java -Dserver.port=80 -Dxml.out.dir=C:\Ankit\generatexml\temp -Dinstall.dir=C:\Ankit\generatexml  -Ditrxml.log.dir=C:\Ankit\generatexml\logs -Dlog4j.configurationFile=C:\Ankit\generatexml\resources\conf\log4j2.xml -Dtemp.dir=C:\Ankit\generatexml\temp -Dgeneratexml.conf.dir=C:\Ankit\generatexml\resources\conf -cp "C:\Ankit\generatexml\lib\*" com.nextleap.itr.api.GenerateXMLServiceApp
+
+CURL COMMAND TO EXECUTE THE RET API
+curl -X POST  http://13.91.245.184:80/itr/itr1/generatexml  -H 'Content-Type: multipart/form-data' -H 'X-ITR-ASSESSMENT-YEAR:201920'  -F 'itrjson=@C:/Ankit/projects/generatexml/buildarea/generatexml/resources/json/ITR1_WithData.json;type=application/json'
+
+curl -X GET  http://13.91.245.184:80/itr/itr1/itrxml/4f616ecf-4cc4-4b6e-a67f-d4e07dd6b0bd  -H 'X-ITR-ASSESSMENT-YEAR:201920'  
+
+LINUX COMMAND to start XML WEB SERVICE
+java -Dserver.port=8080 -Dxml.out.dir=/ankit/project/generatexml/temp -Dinstall.dir=/ankit/project/generatexml  -Ditrxml.log.dir=/ankit/project/generatexml/logs -Dlog4j.configurationFile=/ankit/project/generatexml/resources/conf/log4j2.xml -Dtemp.dir=/ankit/project/generatexml/temp -Dgeneratexml.conf.dir=/ankit/project/generatexml/resources/conf -cp "/ankit/project/generatexml/lib/*" com.nextleap.itr.api.GenerateXMLServiceApp
+
