@@ -24,7 +24,7 @@
 			<artifactId>ITR1</artifactId>
 			<scope>system</scope>
 			<version>2020</version>
-			<systemPath>${basedir}\libs\itr\ITR1\2020\ITR-1_AY202021_PR2.jar</systemPath>
+			<systemPath>${basedir}\libs\itr\ITR1\2020\ITR-1_AY202021_PR3_1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
