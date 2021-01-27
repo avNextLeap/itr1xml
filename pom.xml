@@ -23,8 +23,8 @@
 			<groupId>itr</groupId>
 			<artifactId>ITR1</artifactId>
 			<scope>system</scope>
-			<version>2020</version>
-			<systemPath>${basedir}\libs\itr\ITR1\2020\ITR-1_AY202021_PR3_1.jar</systemPath>
+			<version>2021</version>
+			<systemPath>${basedir}\libs\itr\ITR1\2021\ITR-1_AY202021_PR3.3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -154,7 +154,7 @@
 
 								<echo>Creating itr1xml bundle</echo>
 								<mkdir dir="${basedir}/release" />
-								<tar destfile="${basedir}/release/itr1xml-2019-20.tar.gz"
+								<tar destfile="${basedir}/release/itr1xml-2020-21.tar.gz"
 									compression="gzip">
 									<tarfileset dir="${buildarea}/itr1xml">
 										<include name="**/*" />
