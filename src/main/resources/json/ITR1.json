@@ -550,28 +550,8 @@
 				"amount":"0",
 				"required":false
 				
-			},
+			}
 			
-			
-	"claim_deduction_for_extended_period":{
-			"applicable":"no",
-			 "section80C":"0",
-			 "section80CCC":"0",
-			 "section80CCD":"0",
-			 "section80CCD1B":"0",
-			 "section80CCD2":"0",
-			 "section80D":"0",
-			 "section80DD":"0",
-			 "section80DDB":"0",
-			 "section80E":"0",
-			 "section80EE":"0",
-			 "section80EEA":"0",
-			 "section80EEB":"0",
-			 "section80G":"0",
-			 "section80GG":"0",
-			 "section80GGA":"0",
-			 "section80GGC":"0"
-		}
 	
 },
 
